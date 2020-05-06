@@ -1,22 +1,22 @@
 [![Powered by Tanuel](https://img.shields.io/badge/Powered%20by-Tanuel-b22.svg)](https://github.com/Tanuel)
 [![Documentation](https://img.shields.io/badge/-Documentation-blueviolet.svg)](https://github.com/Tanuel/async-queue#readme)
-[![npm](https://img.shields.io/npm/v/a-queue.svg?logo=npm)](https://www.npmjs.com/package/a-queue)
-[![npm](https://img.shields.io/npm/dt/a-queue.svg?logo=npm)](https://www.npmjs.com/package/a-queue)
+[![npm](https://img.shields.io/npm/v/@tanuel/async-queue.svg?logo=npm)](https://www.npmjs.com/package/@tanuel/async-queue)
+[![npm](https://img.shields.io/npm/dt/@tanuel/async-queue.svg?logo=npm)](https://www.npmjs.com/package/@tanuel/async-queue)
 
-# a-queue
+# @tanuel/async-queue
 
 A zero dependency Promise based job queue with limited concurrency, written in TypeScript.
 
 ## Installing
 
-    yarn add a-queue
+    yarn add @tanuel/async-queue
     # or
-    npm install a-queue --save
+    npm install @tanuel/async-queue --save
 
 ## Usage
 
 ```javascript
-import { AsyncQueue } from "a-queue";
+import { AsyncQueue } from "@tanuel/async-queue";
 
 (async () => {
   const queue = new AsyncQueue();
@@ -34,7 +34,7 @@ import { AsyncQueue } from "a-queue";
 This could be used to limit concurrency of network requests, e.g. if you want to load a lot of api requests
 
 ```javascript
-import { AsyncQueue } from "a-queue";
+import { AsyncQueue } from "@tanuel/async-queue";
 
 const urls = [
   // an array of a lot of urls

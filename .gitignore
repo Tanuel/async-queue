@@ -1,0 +1,12 @@
+/.idea
+/.vscode
+
+/node_modules
+/coverage
+/yarn-error.log
+
+*.js
+*.js.map
+*.d.ts
+
+!jest.config.js

@@ -1,0 +1,38 @@
+{
+  "name": "@tanuel/async-queue",
+  "version": "1.0.0",
+  "description": "Promise based asynchronous queue with limiting",
+  "main": "index",
+  "repository": "https://github.com/Tanuel/async-queue.git",
+  "bugs": "https://github.com/Tanuel/async-queue/issues",
+  "author": "Daniel Schuster <tanuel.mategi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "clean": "tsc --build --clean"
+  },
+  "files": [
+    "lib/**/*.d.ts",
+    "lib/**/*.js",
+    "lib/**/*.map",
+    "index.d.ts",
+    "index.js",
+    "index.js.map"
+  ],
+  "devDependencies": {
+    "@types/jest": "25.2.1",
+    "husky": "4.2.5",
+    "jest": "26.0.1",
+    "prettier": "2.0.5",
+    "pretty-quick": "2.0.1",
+    "ts-jest": "25.4.0",
+    "ts-node": "8.10.1",
+    "typescript": "3.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

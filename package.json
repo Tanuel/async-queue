@@ -1,5 +1,5 @@
 {
-  "name": "@tanuel/async-queue",
+  "name": "a-queue",
   "version": "0.0.0-dev",
   "description": "Promise based asynchronous queue with limiting",
   "main": "index",

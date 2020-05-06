@@ -1,6 +1,6 @@
 {
   "name": "@tanuel/async-queue",
-  "version": "1.0.0",
+  "version": "0.0.0-dev",
   "description": "Promise based asynchronous queue with limiting",
   "main": "index",
   "repository": "https://github.com/Tanuel/async-queue.git",

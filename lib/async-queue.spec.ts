@@ -93,7 +93,6 @@ describe("AsyncQueue", () => {
     const jobs = [];
     let mutex = false;
     const requestMutex = (num: any) => {
-      console.log("request Mutex", num);
       if (mutex) {
         mutexError(num);
       }
@@ -101,7 +100,6 @@ describe("AsyncQueue", () => {
       mutex = true;
     };
     const releaseMutex = (num: any) => {
-      console.log("release Mutex", num);
       mutex = false;
       mutexReleased();
     };

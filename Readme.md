@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/a-queue.svg?logo=npm)](https://www.npmjs.com/package/a-queue)
 [![npm](https://img.shields.io/npm/dt/a-queue.svg?logo=npm)](https://www.npmjs.com/package/a-queue)
 
-# @a-queue
+# a-queue
 
 A zero dependency Promise based job queue with limited concurrency, written in TypeScript.
 
